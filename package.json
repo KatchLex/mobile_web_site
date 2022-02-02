@@ -1,17 +1,19 @@
 {
-  "name": "protractor_task",
+  "name": "mobile_task",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "protractor.conf.mobile.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "protractor conf.js"
+    "test:desktop": "protractor protractor.conf.desktop.js",
+    "test:mobile": "protractor protractor.conf.mobile.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jasmine": "^3.10.0",
     "protractor": "^7.0.0"
-  },
-  "devDependencies": {
-    "jasmine": "^3.10.0"
   }
 }
