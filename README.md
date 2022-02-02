@@ -1,1 +1,1 @@
-Protractor attempt
+Protractor with Desktop and Mobile versions of the same site
